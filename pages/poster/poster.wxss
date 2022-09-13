@@ -1,0 +1,7 @@
+/* pages/poster/poster.js.wxss */
+.mycanvas {
+  display: block;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+

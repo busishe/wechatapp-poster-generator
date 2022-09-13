@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+    <view>hello world</view>
+    <view bindtap="changeText">{{testDataBind}}</view>
+    <button bindtap="naviToPoster">navi-button</button>
+    
+</view>
