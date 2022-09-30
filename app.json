@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/poster/poster"
+    "pages/poster/poster",
+    "pages/webview/webview"
   ],
   "window": {
     "backgroundTextStyle": "light",

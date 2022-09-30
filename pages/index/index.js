@@ -55,5 +55,22 @@ Page({
     wx.navigateTo({
       url: '/pages/poster/poster',
     })
+  },
+  naviToWebview() {
+    wx.navigateTo({
+      url: '/pages/webview/webview',
+    })
+  },
+  naviToApp() {
+    wx.navigateToMiniProgram({
+      appId: 'wxb5cbf186551d38e8',
+      path: '',
+      extraData: {
+      },
+      envVersion: 'release',
+      success(res) {
+        // 打开成功
+      }
+    })
   }
 })

@@ -3,5 +3,7 @@
     <view>hello world</view>
     <view bindtap="changeText">{{testDataBind}}</view>
     <button bindtap="naviToPoster">navi-button</button>
-    
+    <button bindtap="naviToWebview">navi-to-webview</button>
+    <button bindtap="naviToApp">naviToApp</button>
+
 </view>

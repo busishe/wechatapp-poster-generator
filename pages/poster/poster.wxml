@@ -9,6 +9,7 @@
   <canvas class='mycanvas' id="myCanvas" canvas-id="myCanvas" type="2d" style="border: 1px solid;width:90%;height:150rpx" />
   <button bindtap="onlyDrawPic" style="margin-top: 100rpx;">draw</button>
   <button bindtap="savePic" style="margin-top: 100rpx;">save</button>
+ 
   <view wx:for="{{posterPicPath}}">
     <image id="headerPic" src='{{item}}' style=" margin-top:10px; display: block;width: 90%;height: auto;margin: 0 auto;" mode="widthFix"></image>
   </view>

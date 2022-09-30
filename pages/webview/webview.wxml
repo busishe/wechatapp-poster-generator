@@ -1,0 +1,2 @@
+<web-view src="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wwf56157bb51f14d47&redirect_uri=https%3A%2F%2Fbj.dccnet.com.cn%2Fbjfh%2Fqp%2Fsimon%2Frcc-cust%2F%23%2FPoster%3FsysName%3Drcc_poster%26moduleId%3D1%2C2%2C3%26resourceId%3D3%26env%3D0&response_type=code&scope=snsapi_privateinfo&agentid=1000006&state=oauth2#wechat_redirect" bindmessage="getMessage"></web-view>
+<!-- <web-view src="https://bj.dccnet.com.cn/bjfh/qp/simon/rcc-cust/#/Poster?resourceId=3&moduleId=1,2,3" bindmessage="getMessage"></web-view> -->
